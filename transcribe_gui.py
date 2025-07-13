@@ -27,7 +27,7 @@ def run_transcription():
 
     def worker():
         try:
-            model = whisper.load_model("base")  # Change to "small" or "medium" if need
+            model = whisper.load_model("base")  # Change to "small" or "medium" if needed be 
             result = model.transcribe(audio_path)
             srt_text = to_srt(result["segments"])
 
