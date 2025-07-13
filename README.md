@@ -53,6 +53,47 @@ The application uses **OpenAI’s Whisper speech recognition model** to transcri
 
 ```bash
 pip install openai-whisper torch ffmpeg-python
+Run the GUI app:
 
+bash
+Copy
+Edit
+python transcribe_gui.py
+Use the interface to select your audio file, choose a save location, and transcribe.
 
+Supported audio formats
+.mp3
 
+.wav
+
+.m4a
+
+.flac
+
+and others supported by FFmpeg.
+
+Output
+.srt subtitle file with time-coded captions.
+
+File saved in the folder you specify, named after your audio file.
+
+Troubleshooting
+Make sure ffmpeg is installed and added to your system’s PATH.
+
+Large audio files may take some time to transcribe depending on your computer.
+
+Use supported audio file formats to avoid errors.
+
+License
+MIT License
+
+Additional Notes
+The transcription process uses OpenAI's Whisper model for speech recognition, which provides highly accurate transcriptions with proper punctuation.
+
+Ensure that your audio file path and save folder path are accessible and correctly selected in the GUI.
+
+This application is designed to work offline; no audio or text is uploaded to any external server.
+
+For best results, use clear audio recordings with minimal background noise.
+
+If you have any questions or run into issues, please feel free to open an issue in the repository or contact me directly.
