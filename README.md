@@ -103,9 +103,6 @@ For best results, use clear audio recordings with minimal background noise.
 If you have any questions or run into issues, please feel free to open an issue in the repository or contact me directly.
 
 
-
-
-
 ## 🚀 Future Enhancements
 
 Here are some exciting ideas to improve this transcription application and make it even more powerful and user-friendly:
@@ -160,4 +157,5 @@ Here are some exciting ideas to improve this transcription application and make 
 
 ---
 
-📌 _Have more ideas? Feel free to open a GitHub issue or submit a pull request!_
+📌 *Have more ideas? Feel free to open a GitHub issue or submit a pull request!*
+
