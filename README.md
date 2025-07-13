@@ -62,7 +62,7 @@ Edit
 python transcribe_gui.py
 Use the interface to select your audio file, choose a save location, and transcribe.
 
-### Supported Files:
+
 Supported audio formats
 - .mp3
 
@@ -75,7 +75,7 @@ Supported audio formats
 and others supported by FFmpeg.
 
 
-### Output
+## Output
 Output
 - .srt subtitle file with time-coded captions.
 
