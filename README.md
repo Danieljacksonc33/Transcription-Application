@@ -50,58 +50,7 @@ The application uses **OpenAI’s Whisper speech recognition model** to transcri
 1. Clone or download this repository.
 2. Open a terminal/command prompt in the project folder.
 3. Install requirements (if not done yet):
-
-### Install OpenAi Whisper:
-```bash
-1. pip install openai-whisper torch ffmpeg-python
-2. Run the GUI app:
-
-bash
-Copy
-Edit
-python transcribe_gui.py
-Use the interface to select your audio file, choose a save location, and transcribe.
-
-
-Supported audio formats
-- .mp3
-
-- .wav
-
-- .m4a
-
-- .flac
-
-and others supported by FFmpeg.
-
-
-## Output
-Output
-- .srt subtitle file with time-coded captions.
-
-File saved in the folder you specify, named after your audio file.
-
-Troubleshooting
-Make sure ffmpeg is installed and added to your system’s PATH.
-
-Large audio files may take some time to transcribe depending on your computer.
-
-Use supported audio file formats to avoid errors.
-
-License
-MIT License
-
-Additional Notes
-The transcription process uses OpenAI's Whisper model for speech recognition, which provides highly accurate transcriptions with proper punctuation.
-
-Ensure that your audio file path and save folder path are accessible and correctly selected in the GUI.
-
-This application is designed to work offline; no audio or text is uploaded to any external server.
-
-For best results, use clear audio recordings with minimal background noise.
-
-If you have any questions or run into issues, please feel free to open an issue in the repository or contact me directly.
-
+----
 # 🗣️ Transcription Application
 
 A simple desktop GUI app that converts audio files into subtitle files (`.srt`) with **highly accurate transcriptions and proper punctuation** using OpenAI’s Whisper model.
@@ -111,5 +60,118 @@ A simple desktop GUI app that converts audio files into subtitle files (`.srt`) 
 ## ✅ Installation
 
 Install the required Python packages:
+
+---
+
+## 🚀 How to Run the GUI App
+
+
+
+Then:
+
+- Select your **audio file**
+- Choose a **save location** for the `.srt` subtitle file
+- Click **Transcribe** and wait — transcription will start automatically
+
+---
+
+## 🎵 Supported Audio Formats
+
+- `.mp3`
+- `.wav`
+- `.m4a`
+- `.flac`
+- ...and other formats supported by **FFmpeg**
+
+---
+
+## 📝 Output
+
+- Generates a `.srt` subtitle file with **time-coded captions**
+- Output file is saved in the folder you selected, using the audio filename
+
+---
+
+## 🛠 Troubleshooting
+
+- ✅ Make sure `ffmpeg` is installed and added to your system’s **PATH**
+- 🕐 Long audio files may take a few minutes to process depending on your system
+- 🎧 Use **clear audio** for best results
+- 📂 Ensure audio and save folders are accessible
+
+---
+
+## 🔐 License
+
+MIT License
+
+---
+
+## 📌 Additional Notes
+
+- The app uses **OpenAI Whisper** for transcription
+- Works **100% offline** — no internet or external API needed
+- Great for podcasts, sermons, interviews, YouTube videos, etc.
+- Produces transcriptions with **accurate punctuation**
+- User-friendly GUI — no command line needed once it's running
+
+---
+
+## 🚧 Future Enhancements
+
+### 1. 🎧 Multiple File Batch Processing
+- Select and transcribe multiple audio files at once
+- Each file will generate its own `.srt` automatically
+
+### 2. 📊 Progress Bar & Status Updates
+- Show real-time progress and estimated time remaining
+
+### 3. 🔉 Audio Preview & Playback
+- Built-in audio player with synced caption preview
+
+### 4. 🌍 Language Selection
+- Let users select audio language for better recognition
+
+### 5. 🗂 Output Format Options
+- Export to `.srt`, `.vtt`, `.txt`, or `.json`
+
+### 6. 📝 Editable Transcript Editor
+- View and edit transcripts before saving
+
+### 7. ⏱ Timestamp Customization
+- Adjust subtitle timing, delay, or segment size
+
+### 8. 🌙 Dark Mode / UI Themes
+- Light/dark mode toggle for better visibility
+
+### 9. 🖱 Drag & Drop Support
+- Drag audio files directly into the app window
+
+### 10. 🕓 Save Recent Files / History
+- Keep history of recent transcripts for fast access
+
+### 11. 🏷 Automatic Filename Suggestions
+- Smart naming based on file metadata or time
+
+### 12. 🔄 Audio Format Conversion
+- Auto-convert unsupported formats using FFmpeg
+
+### 13. 💻 Desktop Executable Packaging
+- Package as standalone `.exe`, `.app`, or `.deb` using PyInstaller
+
+---
+
+💬 **Have suggestions or issues?**  
+Open an issue or submit a pull request. Contributions are welcome!
+
+
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
+
+You are free to use, modify, and distribute this software for personal or commercial use, provided that the original license is included.
+
+Read the full license [here](LICENSE).
 
 
