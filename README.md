@@ -51,9 +51,10 @@ The application uses **OpenAI’s Whisper speech recognition model** to transcri
 2. Open a terminal/command prompt in the project folder.
 3. Install requirements (if not done yet):
 
+### Install OpenAi Whisper:
 ```bash
-pip install openai-whisper torch ffmpeg-python
-Run the GUI app:
+1. pip install openai-whisper torch ffmpeg-python
+2. Run the GUI app:
 
 bash
 Copy
@@ -61,19 +62,22 @@ Edit
 python transcribe_gui.py
 Use the interface to select your audio file, choose a save location, and transcribe.
 
+### Supported Files
 Supported audio formats
-.mp3
+- .mp3
 
-.wav
+- .wav
 
-.m4a
+- .m4a
 
-.flac
+- .flac
 
 and others supported by FFmpeg.
 
+
+### Output
 Output
-.srt subtitle file with time-coded captions.
+- .srt subtitle file with time-coded captions.
 
 File saved in the folder you specify, named after your audio file.
 
