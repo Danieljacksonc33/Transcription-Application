@@ -102,60 +102,14 @@ For best results, use clear audio recordings with minimal background noise.
 
 If you have any questions or run into issues, please feel free to open an issue in the repository or contact me directly.
 
+# 🗣️ Transcription Application
 
-## 🚀 Future Enhancements
-
-Here are some exciting ideas to improve this transcription application and make it even more powerful and user-friendly:
-
-### 1. 🎧 Multiple File Batch Processing
-- Allow users to select and transcribe multiple audio files at once.
-- Automatically generate individual `.srt` files for each audio.
-
-### 2. 📊 Progress Bar & Status Updates
-- Show a real-time progress bar or percentage during transcription.
-- Display estimated time remaining for large files.
-
-### 3. 🔉 Audio Preview & Playback
-- Add an audio player to preview the selected file.
-- Sync playback with generated captions for review and corrections.
-
-### 4. 🌍 Language Selection
-- Let users select the spoken language of the audio.
-- Whisper supports multiple languages for better accuracy.
-
-### 5. 🗂 Output Format Options
-- Export subtitles in `.srt`, `.vtt` (WebVTT), `.txt`, or `.json`.
-- Let users choose the preferred output format.
-
-### 6. 📝 Editable Transcript Editor
-- Display the transcript in an editable text area.
-- Allow users to fix or polish the text before saving the subtitle.
-
-### 7. ⏱ Timestamp Customization
-- Provide options to customize subtitle timing.
-- Let users adjust offset or segment duration manually.
-
-### 8. 🌙 Dark Mode / UI Themes
-- Add a dark mode toggle or offer multiple UI themes for comfort.
-
-### 9. 🖱 Drag and Drop Support
-- Enable users to drag and drop audio files into the window for quick loading.
-
-### 10. 🕓 Save Recent Files / History
-- Keep a log of recently transcribed files for quick access or re-export.
-
-### 11. 🏷 Automatic Filename Suggestions
-- Suggest output filenames based on metadata, date, or content.
-
-### 12. 🔄 Audio Format Conversion
-- Convert unsupported audio formats automatically using FFmpeg.
-- Provide a fallback to ensure every audio file works seamlessly.
-
-### 13. 💻 Mobile/Desktop Compatibility
-- Package the app with PyInstaller or Electron.
-- Deliver a standalone version for Windows, Mac, or Linux with no need to install Python.
+A simple desktop GUI app that converts audio files into subtitle files (`.srt`) with **highly accurate transcriptions and proper punctuation** using OpenAI’s Whisper model.
 
 ---
 
-📌 *Have more ideas? Feel free to open a GitHub issue or submit a pull request!*
+## ✅ Installation
+
+Install the required Python packages:
+
 
