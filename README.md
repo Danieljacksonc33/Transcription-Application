@@ -62,7 +62,7 @@ Edit
 python transcribe_gui.py
 Use the interface to select your audio file, choose a save location, and transcribe.
 
-### Supported Files
+### Supported Files:
 Supported audio formats
 - .mp3
 
